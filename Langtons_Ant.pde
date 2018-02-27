@@ -1,6 +1,6 @@
 class Ant {
 
-  int w = 6;
+  int w = 10;
   int rows, 
       cols,
       orientation;
@@ -96,6 +96,8 @@ class Ant {
         rect(i*w, j*w, w, w);
       }
     }
+    fill(255, 0, 100);
+    rect(currentX*w, currentY*w, w, w);
   }
 }
   
